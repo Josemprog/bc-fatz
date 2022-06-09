@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITLE -->
     <title>Ball City</title>
+    <link rel="shortcut icon" href="img/icono-bc.ico" type="image/x-icon">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CDN FONT AWESOME (ICONS) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- GOOGLE FONT (TYPOGRAPHY) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Josefin+Sans&family=Oswald:wght@200;300;400;500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+
 
 </head>
 <body>
@@ -12,8 +28,8 @@
 
         <!-- NAVIGATION -->
         <nav class="nav-main">
-            <img src="" alt="BasketBall City">
-            <ul>
+            <img src="img/logo-bc.png" alt="BasketBall City">
+            <ul class="nav-menu">
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -31,18 +47,20 @@
                 </li>
                 <li>
                     <a href="">
-                        Shop
+                        <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                 </li>
             </ul>
-            <ul>
+            <ul class="nav-search">
                 <li>
                     <a href="#">
-                        Search
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </a>
                 </li>
             </ul>
         </nav>
+
+        <hr class="nav-hr">
 
         <!-- MAIN BANNER -->
         <header class="main-banner">
@@ -50,7 +68,7 @@
             <p>Welcome, I hope you enjoy the best basketball content in the country and its surroundings.<br>
             Amateur, university, departmental and intercollegiate basketball.<br>
             Female, Male and all categories.</p>
-            <a href="#">Read More</a>
+            <a href="#">Read More <i class="fa-solid fa-angles-right"></i></a>
         </header>
 
         <!--  CARDS SECTION 1 -->
@@ -59,25 +77,25 @@
                 <img src="" alt="game1">
                 <h3>Semifinal of the Manrique la 45 Tournament</h3>
                 <p>Great men's game, triples, spikes, crossovers and much more...</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div>
                 <img src="" alt="game2">
                 <h3>UdeM U21 Team</h3>
                 <p>University Basketball, ASCUN Antioquia Tournament, U21 Selection of the University of Medellín.</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div>
                 <img src="" alt="game3">
                 <h3>Siglo 21 vs Diamates Girls</h3>
                 <p>Women's match between the 2 best teams of the Tournament of Supremacy, triples, steals and very good plays.</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div>
                 <img src="" alt="game4">
                 <h3>Supremacy Tournament</h3>
                 <p>Men's match of one of the best tournaments in the city of Medellin</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fa-solid fa-angles-right"></i></a>
             </div>
         </div>
 
@@ -86,7 +104,7 @@
             <div class="content">
                 <h3>The best tournaments in the city and its surroundings</h3>
                 <p>In this section you can see a lot of information about the best tournaments in the city of eternal spring, programming, results, videos, best plays and much more</p>
-                <a href="Read More" class="btn"></a>
+                <a href="#" class="btn">Read More <i class="fa-solid fa-angles-right"></i></a>
             </div>
         </section>
         
@@ -96,25 +114,25 @@
                 <img src="" alt="game1">
                 <h3>Semifinal of the Manrique la 45 Tournament</h3>
                 <p>Great men's game, triples, spikes, crossovers and much more...</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div>
                 <img src="" alt="game2">
                 <h3>UdeM U21 Team</h3>
                 <p>University Basketball, ASCUN Antioquia Tournament, U21 Selection of the University of Medellín.</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div>
                 <img src="" alt="game3">
                 <h3>Siglo 21 vs Diamates Girls</h3>
                 <p>Women's match between the 2 best teams of the Tournament of Supremacy, triples, steals and very good plays.</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div>
                 <img src="" alt="game4">
                 <h3>Supremacy Tournament</h3>
                 <p>Men's match of one of the best tournaments in the city of Medellin</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fa-solid fa-angles-right"></i></a>
             </div>
         </div>
 
@@ -123,7 +141,7 @@
             <div class="content">
                 <h3>Torneo Supremacía</h3>
                 <p>Uno de los mejores torneos de la ciudad de Medellín, realizado por el club Supremacía y BasketBall City</p>
-                <a href="Read More" class="btn"></a>
+                <a href="#" class="btn">Read More <i class="fa-solid fa-angles-right"></i></a>
             </div>
         </section>
 
@@ -132,20 +150,17 @@
             <p>Follow BasketBall City</p>
             <div class="social-links">
                 <a href="#">
-                    Facebook
+                    <i class="fa-brands fa-facebook-f"></i>
                 </a>
                 <a href="#">
-                    Instagram
+                    <i class="fa-brands fa-instagram"></i>
                 </a>
                 <a href="#">
-                    Youtube
+                    <i class="fa-brands fa-youtube"></i>
                 </a>
                 <a href="#">
-                    Tik Tok
-                </a>                
-                <a href="#">
-                    Kwai
-                </a>                
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>               
             </div>
         </section>
 
@@ -252,6 +267,7 @@
                 </ul>
             </div>
         </footer>
+
     </div>
 </body>
 </html>
